@@ -36,6 +36,8 @@ class MainActivity : AppCompatActivity() {
             //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     //.setAction("Action", null).show()
             Toast.makeText(this, "Just nothing!", Toast.LENGTH_LONG).show();
+
+
         }
     }
 

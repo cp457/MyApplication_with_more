@@ -11,11 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:text="@string/hello_bro"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#000000"
-        android:textSize="21sp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/button_textSize"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,8 +25,9 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_firstMargin"
         android:text="@string/next"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@android:id/button1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_first" />
@@ -43,5 +43,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_first"
         app:layout_constraintVertical_bias="0.597" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

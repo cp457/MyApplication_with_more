@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Hello Italia</string>
     <string name="action_settings">Settings</string>
     <string name="action_profile">Profile</string>
@@ -10,17 +10,15 @@
     <string name="third_fragment_label">Third Fragment</string>
     <string name="next">Next</string>
     <string name="go_to_third">go to third</string>
-    <string name="go_to_first">go to FIRST!</string>
+    <string name="go_to_first">go to FIRST\!</string>
     <string name="button_next2">Go to Second</string>
     <string name="button_next4">Go to First</string>
-    <string name="nextSecond">Go next pls!</string>
-    <string name="nextThird">Could you go on?</string>
-    <string name="second_text_view"></string>
+    <string name="nextSecond">Go next pls\!</string>
+    <string name="nextThird">Could you go on\?</string>
+    <string name="second_text_view" />
 
-
-    <string name="user">User</string>
-    <string name="hello_bro">Benvenuti!</string>
-    <string name="text_second_fragment">Guarda, sono nella secondo frammento di infinito,
-        inserisci il tuo nome!</string>
+    <string name="text_second_fragment">Look, i\'m to the second fragment of infinity,
+        insert your name\!</string>
     <string name="text_insert">PROPRIO QUI</string>
+    <string name="floating_action" tools:ignore="ExtraTranslation" translatable="false">30dp</string>
 </resources>

@@ -12,12 +12,13 @@
     <string name="third_fragment_label">Third Fragment</string>
     <string name="next">Next</string>
     <string name="go_to_third">go to third</string>
-    <string name="go_to_first">go to FIRST!</string>
+    <string name="go_to_first">go to FIRST\!</string>
     <string name="button_next2">Go to Second</string>
     <string name="button_next4">Go to First</string>
-    <string name="nextSecond">Go next pls!</string>
-    <string name="nextThird">Could you go on?</string>
-    <string name="second_text_view">So cool!</string>
+    <string name="nextSecond">Go next pls\!</string>
+    <string name="nextThird">Could you go on\?</string>
+    <string name="second_text_view">So cool\!</string>
     <string name="text_second_fragment">Guarda, sono nella secondo frammento di infinito</string>
     <string name="text_insert">PROPRIO QUI</string>
+
 </resources>
